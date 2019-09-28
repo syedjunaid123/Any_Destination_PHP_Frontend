@@ -1,0 +1,80 @@
+.cardsContainer{
+    height: 90%;
+    display: flex;
+    width: 90%;
+    flex-flow: wrap;
+    overflow: hidden;
+    padding: 5%;
+    justify-content: center;
+}
+.topPicks{
+    overflow: hidden;
+}
+.topPicks .body> .title{
+    font-family: "OpenSans-Bold";
+    font-size: 30px;
+    color: #EF3057;
+    text-align: center;
+}
+.topPicks .body {
+    width: 90%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+.topPicks .topCards{
+    position: relative;
+    font-family: "OpenSans-Regular";
+    font-size: 15px;
+    color: #fff;
+    height: 200px;
+    width: 200px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 20px;
+}
+
+.topCards .title{
+    padding: 10px 0px;
+}
+
+.topCards .backDrop{
+    position: absolute;
+    z-index: 0;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.topCards  .middleLayer{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+}
+.topCards:hover .frontDrop{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: #EF3057;
+
+}
+.topCards .frontDrop{
+    display: none;
+}

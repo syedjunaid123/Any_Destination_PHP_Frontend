@@ -1,0 +1,76 @@
+@font-face {
+    font-family: "OpenSans-Regular";
+    src:url("/fonts/OpenSans-Regular.ttf") format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "OpenSans-Bold";
+    src:url("/fonts/OpenSans-Bold.ttf") format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.extremeTxt {
+    display: inline;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 10px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    min-height: 40px;
+    width: auto;
+    border-radius: 50px;
+    background-color: #EF3057;
+    color: #fff;
+    cursor: pointer;
+}
+.buttonInverted{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+    min-height: 40px;
+    width: auto;
+    border-radius: 50px;
+    color: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;    
+}
+
+.container80per{
+    width: 80%;
+    height: 100px;
+}
+
+.grayColorBack{
+    background-color: #E8E8E8;
+}
+
+.redColorBack{
+    background-color: #EF3057;
+}
+
+.bakwasCirlceContainer{
+    position: absolute;
+}
+.bakwasCirlceContainer .rightAlign{
+    background: green;
+}
+
+.height20per{
+    height: 20%;
+}
+.height50per{
+    height: 50%;
+}
+.textCenter{
+    text-align: center;
+}

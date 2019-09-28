@@ -1,0 +1,38 @@
+html, body{
+    margin: 0px;
+    position: relative;
+    padding: 0px;
+    min-width: 1024px;
+    overflow-y: auto;
+    font-family: "OpenSans-Regular";
+}
+.logo{
+    min-height: 50px;
+    height: 10%;
+    width: auto;
+}
+.allcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    display: flex;
+}
+.window{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 100vh;
+}
+.visualContent{
+    display: flex;
+    flex: 1;
+    min-width: 1025px;
+    max-width: 1366px;
+    height: 100%;
+    overflow: auto;
+}
