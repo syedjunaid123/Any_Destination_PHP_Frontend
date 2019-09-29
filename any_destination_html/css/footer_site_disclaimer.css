@@ -1,0 +1,30 @@
+.reachus_content{
+    height: 300px;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: inherit;
+}
+.reachus_txt{
+    text-align: center;
+    color: white;
+    text-decoration-line: underline;
+    font-weight: 200;
+}
+.reachus_phno{
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 21px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.reachus_social{
+    text-align: right;
+}
+.reachus_phno_icon{
+    height: 100px;
+    position: relative;
+}
