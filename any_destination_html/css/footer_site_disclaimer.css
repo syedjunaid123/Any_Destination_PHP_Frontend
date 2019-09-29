@@ -1,5 +1,5 @@
 .reachus_content{
-    height: 300px;
+    height: 275px;
     width: 100%;
     justify-content: flex-start;
     align-items: inherit;
@@ -10,6 +10,7 @@
     text-decoration-line: underline;
     font-weight: 200;
 }
+
 .reachus_phno{
     text-align: center;
     color: white;
@@ -23,8 +24,29 @@
 }
 .reachus_social{
     text-align: right;
+    color: white;
+    font-weight: 200;
+    font-size: 21px;
+    margin-left: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
 }
 .reachus_phno_icon{
-    height: 100px;
+    height: 120px;
     position: relative;
+}
+
+.reachus_followus_social{
+    padding: 10 10px;
+}
+
+.reachus_email_contact{
+    font-size: 15px;
+    color: white;
+    padding: 15 10px;
+    margin-top: 2px;
+    font-weight: bold
 }
